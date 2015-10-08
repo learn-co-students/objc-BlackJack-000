@@ -1,6 +1,7 @@
 //  FISAppDelegate.h
 
 #import <UIKit/UIKit.h>
+#import "FISBlackjackGame.h"
 
 @interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 

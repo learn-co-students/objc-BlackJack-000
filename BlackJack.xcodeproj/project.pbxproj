@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB68EEE1BC461EE00A122B0 /* FISBlackjackPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB68EED1BC461EE00A122B0 /* FISBlackjackPlayer.m */; settings = {ASSET_TAGS = (); }; };
+		3AB68EF41BC4623500A122B0 /* FISBlackjackGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB68EF31BC4623500A122B0 /* FISBlackjackGame.m */; settings = {ASSET_TAGS = (); }; };
+		3AB68EF71BC4624300A122B0 /* FISCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB68EF61BC4624300A122B0 /* FISCardDeck.m */; settings = {ASSET_TAGS = (); }; };
+		3AB68EFA1BC4625100A122B0 /* FISCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB68EF91BC4625100A122B0 /* FISCard.m */; settings = {ASSET_TAGS = (); }; };
 		440FE73819464F8000C45D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73719464F8000C45D87 /* Foundation.framework */; };
 		440FE73A19464F8000C45D87 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73919464F8000C45D87 /* CoreGraphics.framework */; };
 		440FE73C19464F8000C45D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73B19464F8000C45D87 /* UIKit.framework */; };
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AB68EEC1BC461EE00A122B0 /* FISBlackjackPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISBlackjackPlayer.h; sourceTree = "<group>"; };
+		3AB68EED1BC461EE00A122B0 /* FISBlackjackPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISBlackjackPlayer.m; sourceTree = "<group>"; };
+		3AB68EF21BC4623500A122B0 /* FISBlackjackGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISBlackjackGame.h; sourceTree = "<group>"; };
+		3AB68EF31BC4623500A122B0 /* FISBlackjackGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISBlackjackGame.m; sourceTree = "<group>"; };
+		3AB68EF51BC4624300A122B0 /* FISCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCardDeck.h; sourceTree = "<group>"; };
+		3AB68EF61BC4624300A122B0 /* FISCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardDeck.m; sourceTree = "<group>"; };
+		3AB68EF81BC4625100A122B0 /* FISCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCard.h; sourceTree = "<group>"; };
+		3AB68EF91BC4625100A122B0 /* FISCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCard.m; sourceTree = "<group>"; };
 		440FE73419464F8000C45D87 /* BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		440FE73719464F8000C45D87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		440FE73919464F8000C45D87 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,7 +134,15 @@
 			children = (
 				440FE74619464F8000C45D87 /* FISAppDelegate.h */,
 				440FE74719464F8000C45D87 /* FISAppDelegate.m */,
+				3AB68EF21BC4623500A122B0 /* FISBlackjackGame.h */,
+				3AB68EF31BC4623500A122B0 /* FISBlackjackGame.m */,
 				440FE73E19464F8000C45D87 /* Supporting Files */,
+				3AB68EEC1BC461EE00A122B0 /* FISBlackjackPlayer.h */,
+				3AB68EED1BC461EE00A122B0 /* FISBlackjackPlayer.m */,
+				3AB68EF51BC4624300A122B0 /* FISCardDeck.h */,
+				3AB68EF61BC4624300A122B0 /* FISCardDeck.m */,
+				3AB68EF81BC4625100A122B0 /* FISCard.h */,
+				3AB68EF91BC4625100A122B0 /* FISCard.m */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -300,8 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB68EF71BC4624300A122B0 /* FISCardDeck.m in Sources */,
+				3AB68EEE1BC461EE00A122B0 /* FISBlackjackPlayer.m in Sources */,
+				3AB68EFA1BC4625100A122B0 /* FISCard.m in Sources */,
 				440FE74419464F8000C45D87 /* main.m in Sources */,
 				440FE74819464F8000C45D87 /* FISAppDelegate.m in Sources */,
+				3AB68EF41BC4623500A122B0 /* FISBlackjackGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
