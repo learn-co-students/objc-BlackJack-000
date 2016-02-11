@@ -100,7 +100,7 @@ Before we can write the logic for the blackjack game, we need to tell the player
   * set the four boolean values (`aceInHand`, `stayed`, `blackjack`, and `busted`) to `NO`.  
   * It should **not** affect the `wins` and `losses` integers.
 
-9. Lastly, override the `description` method to provide a customized printout in the debug console. **Hint:** *This is a great time to use* `NSMutableString`. Because of randomization, the test for this method is simply looking that this string contains substrings that match each the property names, so it is somewhat up to you to decide how to present the information. Remember that you can format line breaks with `\n` and indentations with spaces. 
+9. Lastly, override the `description` method to provide a customized printout in the debug console. **Hint:** *This is a great time to use* `NSMutableString`. Because of randomization, the test for this method is simply looking that this string contains substrings that match each of the property names, so it is somewhat up to you to decide how to present the information. Remember that you can format line breaks with `\n` and indentations with spaces. 
 
 Consider the following console output when formatting your description string:
 
@@ -233,3 +233,5 @@ These are some options for continuing to work on this concept beyond the provide
 
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-BlackJack' title='BlackJack Console'>BlackJack Console</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-BlackJack'>Blackjack</a> on Learn.co and start learning to code for free.</p>
